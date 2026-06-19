@@ -44,11 +44,6 @@ const Header = () => {
       <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
         <li>
           <NavLink to="/" end className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-            Perfil
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/about" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
             Acerca de mim
           </NavLink>
         </li>
