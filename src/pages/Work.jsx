@@ -70,7 +70,7 @@ const Work = () => {
               </div>
             </div>
             <div className="project-footer-link">
-              <i className="fas fa-eye"></i> Vew {project.title}
+              <i className="fas fa-eye"></i> Ver {project.title}
             </div>
           </div>
         ))}
